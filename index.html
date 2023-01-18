@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Law Company in the center of Kyiv" />
+    <title>LawPlatform</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Header section -->
+    <header class="header" data-header>
+      <div class="header__container container">
+        <a class="header__logo logo" href="" aria-label="LawPlatform logo">
+          <img
+            class="about-img"
+            src="./images/about/LP-main.svg"
+            alt="logo LawPlatform"
+            width="142"
+            height="73"
+          />
+        </a>
+        <nav class="nav header__nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link nav__link--current link" href="#about">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="#service">Services</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="#team">Our Team</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="#contacts">Contacts</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="./index-ukr.html">Ukrainian</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__group">
+          <a class="header__contact link" href="mail:office@lplatform.ua">office@lplatform.ua</a>
+          <button class="btn btn--theme-dark" type="button" data-modal-open>
+            <span class="btn-txt">Online request</span>
+          </button>
+        </div>
+
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg class="menu-toggle-icon" width="24" height="24">
+            <use href="./images/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <!-- Main section -->
+    <main>
+      <!-- Hero section -->
+      <section class="hero">
+        <div class="hero-container container">
+          <div class="hero-left-side">
+            <ul class="hero-media-list media-list list">
+              <li class="media-item">
+                <a
+                  class="media-link link"
+                  href="http://linkedin.com"
+                  target="_blank"
+                  rel="noopener nofollow noreferrer"
+                  >Linkedin</a
+                >
+              </li>
+              <li class="media-item">
+                <a
+                  class="media-link link"
+                  href="http://www.facebook.com"
+                  target="_blank"
+                  rel="noreffer nofollow noopener"
+                  >Facebook</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="hero-right-side">
+            <p class="hero-uppertitle uppertitle uppertitle-theme-dark">
+              Legal and Advocacy Services
+            </p>
+            <h1 class="main-title">
+              <span class="main-title-first">Платформа</span
+              ><span class="main-title-second">Права</span>
+            </h1>
+            <p class="hero-undertitle undertitle undertitle-theme-dark">
+              We will solve your problem
+            </p>
+          </div>
+          <ul class="slider-pagination list">
+            <li class="slider-pagination-item active"></li>
+            <li class="slider-pagination-item"></li>
+            <li class="slider-pagination-item"></li>
+          </ul>
+          <ul class="slider-controls list">
+            <li class="slider-item">
+              <button class="slider-btn disable" type="button">Back</button>
+            </li>
+            <li class="slider-item">
+              <button class="slider-btn" type="button">Forward</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- About section -->
+      <section class="about" id="about">
+        <div class="about-container container">
+          <ul class="about-list list">
+            <li class="about-item">
+              <img
+                class="about-img"
+                src="./images/about/about-papers.jpeg"
+                alt="Hammer"
+                width="270"
+                height="445"
+              />
+            </li>
+            <li class="about-item">
+              <img
+                class="about-img"
+                src="./images/about/about-justice.jpeg"
+                alt="Justice"
+                width="270"
+                height="445"
+              />
+            </li>
+          </ul>
+          <div class="about-right-side">
+            <p class="uppertitle">About</p>
+            <h2 class="title">Law Company in your city</h2>
+            <p class="undertitle">
+              If you have any unsolved legal question &nbsp;you should definitely contact us.
+            </p>
+            <p class="about-desc">
+              We are the team of like-minded professionals gathered in 2019 to work with complicated
+              and various legal tasks in different spheres
+            </p>
+            <button class="btn" type="button">Online request</button>
+          </div>
+        </div>
+      </section>
+      <!-- Service section -->
+      <section class="service" id="service">
+        <div class="container">
+          <p class="uppertitle uppertitle-theme-dark">solve your problems with professionals</p>
+          <h2 class="title title-theme-dark">Services</h2>
+          <div class="service-block"></div>
+          <button class="service-btn btn btn--theme-dark" type="button">Online request</button>
+        </div>
+        <div class="container">
+          <p class="gallery-uppertitle uppertitle">Jus est ars boni et aequi</p>
+          <h2 class="visually-hidden">Specialty</h2>
+          <ul class="gallery-list list">
+            <li class="gallery-item">
+              <img
+                class="gallery-img"
+                src="./images/service/istockphoto-1324730690-612x612.jpeg"
+                alt="gallery"
+                width="612"
+                height="612"
+              />
+              <p class="gallery-text">Bankruptcy</p>
+            </li>
+            <li class="gallery-item">
+              <img
+                class="gallery-img"
+                src="./images/service/istockphoto-184282834-612x612.jpeg"
+                alt="gallery"
+                width="612"
+                height="612"
+              />
+              <p class="gallery-text">Building</p>
+            </li>
+            <li class="gallery-item">
+              <img
+                class="gallery-img"
+                src="./images/service/istockphoto-140471711-612x612.jpeg"
+                alt="gallery"
+                width="612"
+                height="508"
+              />
+              <p class="gallery-text">Court support</p>
+            </li>
+            <li class="gallery-item">
+              <img
+                class="gallery-img"
+                src="./images/service/istockphoto-983597380-612x612.jpeg"
+                alt="gallery"
+                width="612px"
+                height="612px"
+              />
+              <p class="gallery-text">Debt collection</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Benefits section -->
+      <section class="benefits">
+        <div class="benefits-container container">
+          <div class="benefits-top">
+            <p class="uppertitle">advocacy support 24/7</p>
+            <h2 class="title">Why people come to us?</h2>
+            <p class="undertitle">
+              One has never heard about us. But it's better to see and feel 1 time than read 10
+              times.
+            </p>
+          </div>
+          <div class="benefits-bottom">
+            <ul class="benefits-list list">
+              <li class="benefits-item">
+                <p class="benefits-quantity">100+</p>
+                <p class="benefits-text">Satisfied customers per&nbsp;3 years</p>
+              </li>
+              <li class="benefits-item">
+                <p class="benefits-quantity">50+</p>
+                <p class="benefits-text">Court cases in support</p>
+              </li>
+              <li class="benefits-item">
+                <p class="benefits-quantity">10</p>
+                <p class="benefits-text">
+                  Kyiv’s best <br />
+                  lawyers
+                </p>
+              </li>
+              <li class="benefits-item">
+                <p class="benefits-quantity">100+</p>
+                <p class="benefits-text">mln UAH Collected debts</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Team section -->
+      <section class="team" id="team">
+        <div class="container">
+          <p class="uppertitle">for your satisfacion</p>
+          <h2 class="title">Our lawyers and arbitrage managers</h2>
+          <ul class="team-list list">
+            <li class="team-item">
+              <div class="team-thumb">
+                <img
+                  class="team-avatar"
+                  src="./images/team/istockphoto-172801004-612x612.jpeg"
+                  alt="Civil Cases"
+                  width="370"
+                  height="346"
+                />
+                <div class="overlay">
+                  <p class="overlay-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet facilis
+                    accusantium eaque ab, aut eligendi adipisci. At assumenda fugit eum!
+                  </p>
+                </div>
+              </div>
+              <div class="team-wrapper">
+                <h3 class="team-name">Civil Cases</h3>
+                <p class="team-position">Advocates</p>
+                <ul class="socials list">
+                  <li class="socials-item">
+                    <a
+                      class="socials-link link"
+                      href="https://instagram.com"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      aria-label="Instagram icon"
+                    >
+                      <svg class="socials-icon" width="20" height="20">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-link link"
+                      href="https://twitter.com"
+                      aria-label="Twitter icon"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                    >
+                      <svg class="socials-icon" width="20" height="20">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-link link"
+                      href="https://facebook.com"
+                      aria-label="Facebook icon"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                    >
+                      <svg class="socials-icon" width="20" height="20">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-link link"
+                      href="https://linkedin.com"
+                      aria-label="LinkedIn icon"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                    >
+                      <svg class="socials-icon" width="20" height="20">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-item">
+              <div class="team-thumb">
+                <img
+                  class="team-avatar"
+                  src="./images/team/istockphoto-172801004-612x612.jpeg"
+                  alt="Criminal Cases"
+                  width="370"
+                  height="346"
+                />
+                <div class="overlay">
+                  <p class="overlay-text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident saepe
+                    expedita quidem. Doloribus deserunt aperiam autem soluta reiciendis expedita
+                    ullam mollitia cumque accusantium amet, a temporibus hic, eaque dolores id?
+                  </p>
+                </div>
+              </div>
+
+              <div class="team-wrapper">
+                <h3 class="team-name">Criminal Cases</h3>
+                <p class="team-position">Advocates</p>
+                <ul class="socials list">
+                  <li class="socials-item">
+                    <a
+                      class="socials-link link"
+                      href="https://instagram.com"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      aria-label="Instagram"
+                    >
+                      <svg class="socials-icon" width="20" height="20">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-link link"
+                      href="https://twitter.com"
+                      aria-label="Twitter"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                    >
+                      <svg class="socials-icon" width="20" height="20">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-link link"
+                      href="https://facebook.com"
+                      aria-label="Facebook"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                    >
+                      <svg class="socials-icon" width="20" height="20">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-link link"
+                      href="https://linkedin.com"
+                      aria-label="LinkedIn"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                    >
+                      <svg class="socials-icon" width="20" height="20">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-item">
+              <div class="team-thumb">
+                <img
+                  class="team-avatar"
+                  src="./images/team/istockphoto-172801004-612x612.jpeg"
+                  alt="Business Cases"
+                  width="370"
+                  height="346"
+                />
+                <div class="overlay">
+                  <p class="overlay-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis dolor
+                    suscipit eos quam quisquam explicabo tenetur cum dolorum perspiciatis.
+                    Recusandae voluptates quos commodi unde veritatis est dolore quas laudantium?
+                  </p>
+                </div>
+              </div>
+
+              <div class="team-wrapper">
+                <h3 class="team-name">Business Cases</h3>
+                <p class="team-position">Advocates and Arbitrage Managers</p>
+                <ul class="socials list">
+                  <li class="socials-item">
+                    <a
+                      class="socials-link link"
+                      href="https://instagram.com"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                      aria-label="Instagram"
+                    >
+                      <svg class="socials-icon" width="20" height="20">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-link link"
+                      href="https://twitter.com"
+                      aria-label="Twitter"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                    >
+                      <svg class="socials-icon" width="20" height="20">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-link link"
+                      href="https://facebook.com"
+                      aria-label="Facebook"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                    >
+                      <svg class="socials-icon" width="20" height="20">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="socials-item">
+                    <a
+                      class="socials-link link"
+                      href="https://linkedin.com"
+                      aria-label="LinkedIn"
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                    >
+                      <svg class="socials-icon" width="20" height="20">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Projects section -->
+      <section class="gallery">
+        <div class="container">
+          <p class="gallery-uppertitle uppertitle">Our most interesting and important projects</p>
+          <h2 class="visually-hidden">Our gallery</h2>
+          <ul class="gallery-list list">
+            <li class="gallery-item">
+              <img
+                class="gallery-img"
+                src="./images/service/istockphoto-1324730690-612x612.jpeg"
+                alt="gallery"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                class="gallery-img"
+                src="./images/service/istockphoto-499892549-612x612.jpeg"
+                alt="gallery"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                class="gallery-img"
+                src="./images/service/istockphoto-544959648-612x612.jpeg"
+                alt="gallery"
+                width="270"
+                height="360"
+              />
+            </li>
+            <li class="gallery-item">
+              <img
+                class="gallery-img"
+                src="./images/service/istockphoto-820823834-612x612.jpeg"
+                alt="gallery"
+                width="270"
+                height="360"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="footer-container container">
+        <ul class="footer-media-list media-list list">
+          <li class="media-item">
+            <a
+              class="media-link footer-media-link link"
+              href="http://www.facebook.com"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+              >Facebook</a
+            >
+          </li>
+          <li class="media-item">
+            <a
+              class="media-link footer-media-link link"
+              href="http://www.Linkedin.com"
+              rel="nofollow noopener noreferrer"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+        <p class="footer-copyright">&#169; Copyright 2022</p>
+      </div>
+    </footer>
+
+    <!-- Modal window -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-btn" type="button" data-modal-close>
+          <svg class="close-btn-icon" width="18" height="18">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Leave your details, we will contact soon</p>
+        <form class="modal-form">
+          <div class="form-group">
+            <label class="form-field">
+              <span class="form-thumb">
+                <svg class="form-icon" width="20" height="20">
+                  <use href="./images/icons.svg#user-id"></use>
+                </svg>
+              </span>
+              <input
+                class="form-input"
+                type="text"
+                name="user_name"
+                placeholder="Oleksandr Petrenko"
+                pattern="^[a-zA-Z]+\s[a-zA-Z]+$"
+                required
+              />
+              <span class="form-label">Name</span>
+              <span class="form-info">User name must be two words separated by space.</span>
+              <svg class="form-info-icon" width="24" height="24">
+                <use class="warning" href="./images/icons.svg#warning"></use>
+                <use class="success" href="./images/icons.svg#success"></use>
+              </svg>
+            </label>
+            <label class="form-field">
+              <span class="form-thumb">
+                <svg class="form-icon" width="20" height="20">
+                  <use href="./images/icons.svg#user-mail"></use>
+                </svg>
+              </span>
+              <input
+                class="form-input"
+                type="email"
+                name="user_mail"
+                placeholder="example@mail.com"
+                required
+              />
+              <span class="form-label">Email</span>
+              <span class="form-info">Please provide a valid email</span>
+              <svg class="form-info-icon" width="24" height="24">
+                <use class="warning" href="./images/icons.svg#warning"></use>
+                <use class="success" href="./images/icons.svg#success"></use>
+              </svg>
+            </label>
+            <label class="form-field">
+              <span class="form-thumb">
+                <svg class="form-icon" width="20" height="20">
+                  <use href="./images/icons.svg#user-mobile"></use>
+                </svg>
+              </span>
+              <input
+                class="form-input"
+                type="tel"
+                name="user_phone"
+                placeholder="+38 (044) 123-45-67 "
+              />
+              <span class="form-label">Phone</span>
+            </label>
+
+            <label class="form-field" data-message>
+              <textarea
+                class="form-message"
+                name="user_message"
+                rows="5"
+                placeholder="&nbsp;"
+              ></textarea>
+              <span class="form-label">Comment</span>
+            </label>
+          </div>
+          <label class="form-agreement">
+            <input
+              class="form-checkbox visually-hidden"
+              type="checkbox"
+              name="agreement-checkbox"
+              checked
+            />
+            <svg class="form-checkbox-icon" width="18" height="18">
+              <use class="unchecked" href="./images/icons.svg#icon-uncheck"></use>
+              <use class="checked" href="./images/icons.svg#icon-check"></use>
+            </svg>
+            <span class="form-agreement-text">
+              Agree to
+              <a class="form-agreement-link link" href="">terms and conditions</a>
+            </span>
+          </label>
+          <button class="form-btn btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <!-- Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu list">
+        <li><a href="" class="link">About</a></li>
+        <li><a href="" class="link">Products</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+      </ul>
+
+      <ul class="mobile-contacts list">
+        <li><a href="" class="link">+38 050 111 11 11</a></li>
+        <li><a href="" class="link">office@lplatform.com.ua</a></li>
+      </ul>
+
+      <ul class="mobile-socials list">
+        <li class="mobile-socials-item">
+          <a
+            href="http://www.facebook.com"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+            class="link"
+            >Facebook</a
+          >
+        </li>
+        <li class="mobile-socials-item">
+          <a
+            href="http://linkedin.com"
+            rel="nofollow noopener noreferrer"
+            target="_blank"
+            class="link"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- Scripts -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./js/mobile-menu.js"></script>
+    <script src="./js/header-scroll.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
